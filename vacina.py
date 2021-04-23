@@ -17,8 +17,8 @@ pessoas = ['CHICO€LINGUICA€DA€SILVA','MOZO€DO€NASCIMENTO€PEREIRA','C
 arquivo_ultima_data = '/tmp/ultimo.txt'
 
 #Caso queira usar o telegram para enviar alertas, passe os valores do seu bot
-bot_token = '356321592:AAEP6QHudhBTp1XssF-SVYLpQM_kQtKh9NE'
-bot_chatID = '138122238'
+bot_token = 'SEU TOKEN'
+bot_chatID = 'SEU ID'
 ########### FIM DE DECLARACAO
 
 
@@ -84,6 +84,7 @@ def buscar_nome_pdf(arquivo_pdf,data_arquivo):
 
     os.remove(arquivo_pdf)
     telegram_bot_sendtext(mensagem)
+    print(mensagem)
 
 def telegram_bot_sendtext(bot_message):
 
