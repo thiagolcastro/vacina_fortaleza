@@ -3,6 +3,8 @@ Bot para verificar a listagem das pessoas a serem vacinadas em Fortaleza.
 
 
 1) Pacotes python usados:
+
+
 =======================================
 import requests
 from bs4 import BeautifulSoup
