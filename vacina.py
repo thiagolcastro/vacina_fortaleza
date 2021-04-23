@@ -10,7 +10,8 @@ from datetime import datetime
 
 #declaracao de variaveis
 
-#pessoas que o script deve checar se exitem na listagem
+#pessoas que o script deve checar se exitem na listagem. 
+# OBS: O espaço entro os sobrenomes deve ser representado com '€' como mostrado no exemplo abaixo
 pessoas = ['CHICO€LINGUICA€DA€SILVA','MOZO€DO€NASCIMENTO€PEREIRA','CABECA€DE€CEBOLA']
 
 #caminho completo de um arquivo .txt que vai armazenar a ultima data de checagem
